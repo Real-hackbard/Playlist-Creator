@@ -31,6 +31,28 @@ Although originally designed for audio files, such as MP3, it is commonly used t
 
 Careless handling of M3U playlists has been the cause of vulnerabilities in many music players such as [VLC media player](https://en.wikipedia.org/wiki/VLC_media_player), [iTunes](https://www.apple.com/de/itunes/), [Winamp](https://en.wikipedia.org/wiki/Winamp), and many others.
 
+### Extended M3U:
+The M3U file can also include comments, prefaced by the "#" character. In extended M3U, "#" also introduces extended M3U directives which are terminated by a colon ":" if they support parameters.
+
+</br>
+
+| Directive | Description | Example | Required | Standard |
+| :----------- | :----------- | :----------- | :----------- | :----------- |
+| #EXTM3U      | file header, must be the first line of the file     | #EXTM3U     | 1x     | Yes     |
+| #EXTINF:     | track information: runtime in seconds, then optional display title of the following resource. For runtime, a length of -1 or 0 may be used when media is a streaming file with no predefined length. | #EXTINF:123,Artist Name – Track Title artist - title.mp3 | No | Yes     |
+| #PLAYLIST:   | playlist display title    | #PLAYLIST:Music TV     | 1x     | IPTV     |
+| #EXTGRP:     | begin named grouping   |#EXTGRP:Foreign Channels   | No     | IPTV    |
+
+
+
+
+
+| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,2     | Zelle 2,3     |
+
+
+
+
+
 
 
 
