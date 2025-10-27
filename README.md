@@ -52,7 +52,7 @@ The M3U file can also include comments, prefaced by the "#" character. In extend
 
 </br>
 
-### Example:
+### M3U Example:
 The following is an example of an M3U playlist file for "[Jar of Flies](https://en.wikipedia.org/wiki/Jar_of_Flies)" album by "[Alice in Chains](https://en.wikipedia.org/wiki/Alice_in_Chains)" that was created by Mp3tag with the following custom option settings
 
 * playlist extended info format = "%artist% - %title%"
@@ -76,10 +76,42 @@ The following is an example of an M3U playlist file for "[Jar of Flies](https://
  #EXTINF:245,Alice in Chains - Swing On This
  Alice in Chains_Jar of Flies_07_Swing On This.mp3
 ````
+</br>
 
+### PLS Format:
+PLS is a computer [file format](https://en.wikipedia.org/wiki/File_format) for a multimedia playlist. It is typically used by media players for streaming media over the Internet, but may also be used for playing local media.
 
+For online streaming, typically the .PLS file would be downloaded just once from the media source—such as from an online radio station—for immediate or future use. While most computers and players automatically recognize the .PLS format, the first time a PLS file is used on a computer, the media player's settings may need to be changed to recognize ("associated" with) .PLS files.
 
+PLS was originally developed for use with the museArc audio player software by codeArts, and was later used by [SHOUTcast](https://en.wikipedia.org/wiki/Shoutcast) and [Icecast](https://en.wikipedia.org/wiki/Icecast) for streaming media over the Internet.
 
+### Examples:
+Example of a complete PLS file used for "streaming audio;" in this case, to connect to a particular online radio station and receive its audio stream:
 
+```
+[playlist]
+File1=https://e20.yesstreaming.net:8279/
+Title1=Here enter name of the station
+NumberOfEntries=1
+Alternative Example containing local paths:
 
+[playlist]
+
+File1=https://e20.yesstreaming.net:8279/
+Length1=-1
+
+File2=example2.mp3
+Title2=Just some local audio that is 2mins long
+Length2=120
+
+File3=F:\Music\whatever.m4a
+Title3=absolute path on Windows
+
+File4=%UserProfile%\Music\short.ogg
+Title4=example for an Environment variable
+Length4=5
+
+NumberOfEntries=4
+Version=2
+```
 
