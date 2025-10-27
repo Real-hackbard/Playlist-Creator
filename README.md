@@ -24,6 +24,8 @@ A playlist is a list of video or audio files that can be played back on a media 
 * Unicode Formats
 * Extended Playlists
 
+For the most common Unicode formats, ```UTF-8``` or ```UTF-16 LE``` is required if the file name or link is written in a foreign language.
+
 ### M3U Format:
 M3U (MP3) is a computer file format for a multimedia [playlist](https://en.wikipedia.org/wiki/Playlist). One common use of the M3U file format is creating a single-entry playlist file pointing to a [stream](https://en.wikipedia.org/wiki/Streaming_media) on the Internet. The created file provides easy access to that stream and is often used in downloads from a website, for emailing, and for listening to [Internet radio](https://en.wikipedia.org/wiki/Internet_radio).
 
