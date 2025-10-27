@@ -88,7 +88,7 @@ PLS was originally developed for use with the museArc audio player software by c
 ### Examples:
 Example of a complete PLS file used for "streaming audio;" in this case, to connect to a particular online radio station and receive its audio stream:
 
-```
+```pls
 [playlist]
 File1=https://e20.yesstreaming.net:8279/
 Title1=Here enter name of the station
