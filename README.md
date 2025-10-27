@@ -42,12 +42,15 @@ The M3U file can also include comments, prefaced by the "#" character. In extend
 | #EXTINF:     | track information: runtime in seconds, then optional display title of the following resource. For runtime, a length of -1 or 0 may be used when media is a streaming file with no predefined length. | #EXTINF:123,Artist Name – Track Title artist - title.mp3 | No | Yes     |
 | #PLAYLIST:   | playlist display title    | #PLAYLIST:Music TV     | 1x     | IPTV     |
 | #EXTGRP:     | begin named grouping   |#EXTGRP:Foreign Channels   | No     | IPTV    |
+| #EXTALB:     | album information, title in particular   | #EXTALB:Album Title (2009)   | 1x   | AL, M3A    |
+| #EXTART:     | album artist  | #EXTART:Various  | 1x   | AL, M3A     |
+| #EXTGENRE:   | album artist | #EXTART:Various  | 1x     | AL, M3A   |
+| #EXTM3A      | playlist for tracks or chapters of an album in a single file  | #EXTM3A  | 1x   | M3A   |
+| #EXTBYT:     | file size in bytes  | #EXTBYT:34124  | No   | M3A   |
+| #EXTBIN:     | binary data follows, usually concatenated MP3s  | #EXTBIN:  | No  | M3A    |
+| #EXTALBUMARTURL:  | url of album art image  | #EXTALBUMARTURL:https://example.com/a1b2c3d4.jpg  | No  | Jamendo/VLC   |
 
-
-
-
-
-| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,2     | Zelle 2,3     |
+</br>
 
 
 
