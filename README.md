@@ -122,7 +122,31 @@ Version=2
 
 XSPF is a file format for sharing the kind of playlist that can be played on a personal computer or portable device. In the same way that any user on any computer can open any Web page, XSPF is intended to provide portability for playlists.
 
+Traditionally playlists have been composed of file paths that pointed to individual titles. This allowed a playlist to be played locally on one machine or shared if the listed file paths were URLs accessible to more than one machine (e.g., on the Web). XSPF's meta-data rich open format has permitted a new kind of playlist sharing called content resolution.
 
+A simple form of content resolution is the localisation of a playlist based on metadata. An XSPF-compliant content resolver will open XSPF playlists and search a catalog for every title with <creator>, <album> and <title> tags, then localise the playlist to reference the available matching tracks. A catalog may reference a collection of media files on a local disk, a music subscription service like Yahoo! Music Unlimited, or some other searchable archive. The end result is shareable playlists that are not tied to a specific collection or service.
 
-
-
+### Example:
+```
+<?xml version="1.1" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+  <trackList>
+    <track>
+      <title>Windows Path</title>
+      <location>file://C:\music\foo.mp3</location>
+    </track>
+    <track>
+      <title>Linux Path</title>
+      <location>file:///media/music/foo.mp3</location>
+    </track>
+    <track>
+      <title>Relative Path</title>
+      <location>music/foo.mp3</location>
+    </track>
+    <track>
+      <title>External Example</title>
+      <location>http://www.example.com/music/bar.ogg</location>
+    </track>
+  </trackList>
+</playlist>
+````
