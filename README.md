@@ -11,8 +11,11 @@
 
 </br>
 
+A playlist is a list of video or audio files that can be played back on a media player, either sequentially or in a [shuffled](https://en.wikipedia.org/wiki/Shuffle_play) order.[1] In its most general form, an audio playlist is simply a list of songs that can be played once or in a loop. The term has several specialized meanings in the realms of television broadcasting, [radio broadcasting](https://en.wikipedia.org/wiki/Radio_broadcasting) and personal computers.
 
+</br>
 
+![Playlist Creator](https://github.com/user-attachments/assets/3bc842c4-034d-42aa-99ca-13d3adca583f)
 
-
+</br>
 
