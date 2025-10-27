@@ -19,3 +19,15 @@ A playlist is a list of video or audio files that can be played back on a media 
 
 </br>
 
+### Featrues:
+* Playlist Formats (m3u, m3u8, m3a, pls, xspf)
+* Unicode Formats
+* Extended Playlists
+
+
+
+
+
+
+
+
