@@ -127,7 +127,7 @@ Traditionally playlists have been composed of file paths that pointed to individ
 A simple form of content resolution is the localisation of a playlist based on metadata. An XSPF-compliant content resolver will open XSPF playlists and search a catalog for every title with <creator>, <album> and <title> tags, then localise the playlist to reference the available matching tracks. A catalog may reference a collection of media files on a local disk, a music subscription service like Yahoo! Music Unlimited, or some other searchable archive. The end result is shareable playlists that are not tied to a specific collection or service.
 
 ### Example:
-```
+```xml
 <?xml version="1.1" encoding="UTF-8"?>
 <playlist version="1" xmlns="http://xspf.org/ns/0/">
   <trackList>
