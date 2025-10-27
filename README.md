@@ -80,7 +80,7 @@ The following is an example of an M3U playlist file for "[Jar of Flies](https://
 ````
 </br>
 
-### PLS Format:
+## PLS Format:
 PLS is a computer [file format](https://en.wikipedia.org/wiki/File_format) for a multimedia playlist. It is typically used by media players for streaming media over the Internet, but may also be used for playing local media.
 
 For online streaming, typically the .PLS file would be downloaded just once from the media source—such as from an online radio station—for immediate or future use. While most computers and players automatically recognize the .PLS format, the first time a PLS file is used on a computer, the media player's settings may need to be changed to recognize ("associated" with) .PLS files.
@@ -119,7 +119,7 @@ Version=2
 
 </br>
 
-### XSPF Format
+## XSPF Format
 [XML](https://en.wikipedia.org/wiki/XML) Shareable Playlist Format (XSPF), pronounced spiff, is an XML-based playlist format for digital media, sponsored by the [Xiph.Org Foundation](https://en.wikipedia.org/wiki/Xiph.Org_Foundation).
 
 XSPF is a file format for sharing the kind of playlist that can be played on a personal computer or portable device. In the same way that any user on any computer can open any Web page, XSPF is intended to provide portability for playlists.
