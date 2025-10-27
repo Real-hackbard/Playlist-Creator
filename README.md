@@ -26,7 +26,7 @@ A playlist is a list of video or audio files that can be played back on a media 
 
 For the most common Unicode formats, ```UTF-8``` or ```UTF-16 LE``` is required if the file name or link is written in a foreign language.
 
-### M3U Format:
+## M3U Format:
 M3U (MP3) is a computer file format for a multimedia [playlist](https://en.wikipedia.org/wiki/Playlist). One common use of the M3U file format is creating a single-entry playlist file pointing to a [stream](https://en.wikipedia.org/wiki/Streaming_media) on the Internet. The created file provides easy access to that stream and is often used in downloads from a website, for emailing, and for listening to [Internet radio](https://en.wikipedia.org/wiki/Internet_radio).
 
 Although originally designed for audio files, such as MP3, it is commonly used to point media players to audio and video sources, including online sources. M3U was originally developed by [Fraunhofer](https://en.wikipedia.org/wiki/Fraunhofer-Gesellschaft) for use with their [WinPlay3](https://en.wikipedia.org/wiki/WinPlay3) software,but numerous media players and software applications now support the format.
