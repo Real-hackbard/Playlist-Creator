@@ -52,11 +52,30 @@ The M3U file can also include comments, prefaced by the "#" character. In extend
 
 </br>
 
+### Example:
+The following is an example of an M3U playlist file for "[Jar of Flies](https://en.wikipedia.org/wiki/Jar_of_Flies)" album by "[Alice in Chains](https://en.wikipedia.org/wiki/Alice_in_Chains)" that was created by Mp3tag with the following custom option settings
 
+* playlist extended info format = "%artist% - %title%"
+* playlist filename format = "%artist%_%album%_00_Playlist.m3u"
+* tag to filename conversion format = "%artist%_%album%_$num(%track%,2)_%title%"
 
-
-
-
+```
+ #EXTM3U
+ #EXTINF:419,Alice in Chains - Rotten Apple
+ Alice in Chains_Jar of Flies_01_Rotten Apple.mp3
+ #EXTINF:260,Alice in Chains - Nutshell
+ Alice in Chains_Jar of Flies_02_Nutshell.mp3
+ #EXTINF:255,Alice in Chains - I Stay Away
+ Alice in Chains_Jar of Flies_03_I Stay Away.mp3
+ #EXTINF:256,Alice in Chains - No Excuses
+ Alice in Chains_Jar of Flies_04_No Excuses.mp3
+ #EXTINF:157,Alice in Chains - Whale And Wasp
+ Alice in Chains_Jar of Flies_05_Whale And Wasp.mp3
+ #EXTINF:263,Alice in Chains - Don't Follow
+ Alice in Chains_Jar of Flies_06_Don't Follow.mp3
+ #EXTINF:245,Alice in Chains - Swing On This
+ Alice in Chains_Jar of Flies_07_Swing On This.mp3
+````
 
 
 
