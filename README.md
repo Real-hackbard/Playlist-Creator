@@ -152,3 +152,19 @@ A simple form of content resolution is the localisation of a playlist based on m
   </trackList>
 </playlist>
 ````
+
+</br>
+
+### Software and web playlist converters:
+* [VLC media player](https://images.videolan.org/) (stand-alone player, available on every major platform)
+* [WinAmp](https://winamp.com/)
+* [XMMS2](https://ubuntu.pkgs.org/25.04/ubuntu-universe-amd64/xmms2-plugin-xspf_0.8+dfsg-28build1_amd64.deb.html) (has a plugin to parse XSPF)
+* [Last.fm](https://www.last.fm/de/) (export of playlists and personal tag radios in XSPF)
+* [Soundiiz](https://soundiiz.com/) (playlist converter for several streaming sites)
+* [Amarok](https://amarok.kde.org/)
+* [Foobar2000](https://www.foobar2000.org/) (with appropriate plugin)
+* [Audacious](https://audacious-media-player.org/)
+* [Banshee](https://www.banshee-project.org/)
+* [Clementine](https://www.clementine-player.org/)
+* [Tomahawk](https://tomahawk-player.de.download.it/)
+* youtube-dl (downloader)
