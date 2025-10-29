@@ -39,7 +39,7 @@ The M3U file can also include comments, prefaced by the "#" character. In extend
 </br>
 
 | Directive | Description | Example | Required | Standard |
-| :----------- | :----------- | :----------- | :----------- | :----------- |
+| :----------- | :----------------- | :----------- | :----------- | :----------- |
 | #EXTM3U      | file header, must be the first line of the file     | #EXTM3U     | 1x     | Yes     |
 | #EXTINF:     | track information: runtime in seconds, then optional display title of the following resource. For runtime, a length of -1 or 0 may be used when media is a streaming file with no predefined length. | #EXTINF:123,Artist Name – Track Title artist - title.mp3 | No | Yes     |
 | #PLAYLIST:   | playlist display title    | #PLAYLIST:Music TV     | 1x     | IPTV     |
